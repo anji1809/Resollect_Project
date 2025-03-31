@@ -1,57 +1,90 @@
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+# Loan Dashboard Application
 
-Available Scripts
-In the project directory, you can run:
+## 📌 Project Structure
 
+This project is a **React-based Loan Dashboard** application that utilizes **Material-UI** components and the **MUI X Data Grid** for displaying loan-related data. Below is the structure of the project:
+
+```bash
+📂 root
+├── 📦 node_modules/             # Project dependencies
+├── 🌍 public/                  # Static assets like images and index.html
+├── 📁 src/                     # Source code
+│   ├── 📌 components/          # Reusable UI components
+│   │   ├── 🎛 Filters.js       # Filter component for data filtering
+│   │   ├── 📊 PortfolioTable.js # Table component for displaying portfolio data
+│   │   ├── 🏷 PortfolioTabs.js # Tab component for navigating different sections
+│   │   ├── 🔢 SelectColumn.js  # Button component for column selection
+│   │   ├── 🧭 Sidebar.js       # Sidebar navigation component
+│   │   ├── 📤 UploadButton.js  # Button component for file uploads
+│   ├── 📜 pages/               # Application pages
+│   │   ├── 📂 Dashboard.js     # Main dashboard page with data grid and UI elements
+│   ├── 🎨 App.css              # Global styles
+│   ├── ⚛️ App.js              # Root React component
+│   ├── 🧪 App.test.js         # Test file for App.js
+│   ├── 🖌 index.css           # Index styles
+│   ├── 🚀 index.js            # Entry point of the application
+│   ├── 🖼 logo.svg            # Application logo
+│   ├── 📈 reportWebVitals.js  # Performance metrics
+│   ├── 🧑‍💻 setupTests.js    # Test setup file
+├── 🚫 .gitignore               # Files to be ignored by Git
+├── 📦 package.json             # Dependencies and scripts
+├── 📖 README.md                # Project documentation
+```
+
+---
+
+## 🚀 Features
+✅ **Material-UI Integration** - Modern UI components for a seamless experience  
+✅ **MUI X Data Grid** - Powerful, high-performance grid for displaying loan data  
+✅ **Reusable Components** - Modular components like Sidebar, Filters, and Buttons  
+✅ **State Management** - Efficient handling of loan data dynamically  
+
+---
+
+## ⚙️ Installation
+
+Follow these simple steps to set up the project:
+
+```sh
+# 1️⃣ Clone the repository:
+git clone <repository-url>
+
+# 2️⃣ Navigate to the project directory:
+cd loan-dashboard
+
+# 3️⃣ Install dependencies:
+npm install
+
+# 4️⃣ Start the application:
 npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+```
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+🚀 The app will be available at **http://localhost:3000**
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+---
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📊 Usage
+- The **Loan Dashboard** displays a list of loans with key details like:
+  - Loan Number
+  - Loan Type
+  - Borrower Information
+  - Sanction Amount
+- Users can interact with the table using **sorting** and **filtering** options.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+---
 
-See the section about deployment for more information.
+## 🛠 Dependencies
+📌 **React**  
+📌 **Material-UI**  
+📌 **MUI X Data Grid**  
 
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
+🚀 Want to improve this project? Feel free to submit **issues** or **pull requests**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📜 License
+📝 This project is licensed under the **MIT License**.
 
-Learn More
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
