@@ -13,9 +13,12 @@ This project is a **React-based Loan Dashboard** application that utilizes **Mat
 │   │   ├── 🎛 Filters.js       # Filter component for data filtering
 │   │   ├── 📊 PortfolioTable.js # Table component for displaying portfolio data
 │   │   ├── 🏷 PortfolioTabs.js # Tab component for navigating different sections
-│   │   ├── 🔢 SelectColumn.js  # Button component for column selection
+│   │   ├── 🔎 SearchBox.js     # Search bar component
+│   │   ├── 🔢 SelectColumn.js  # Component for column selection
 │   │   ├── 🧭 Sidebar.js       # Sidebar navigation component
 │   │   ├── 📤 UploadButton.js  # Button component for file uploads
+│   │   ├── 📑 UploadDocument.js # Component for handling document uploads
+│   │   ├── 👤 UserProfile.js   # User profile component
 │   ├── 📜 pages/               # Application pages
 │   │   ├── 📂 Dashboard.js     # Main dashboard page with data grid and UI elements
 │   ├── 🎨 App.css              # Global styles
@@ -29,7 +32,7 @@ This project is a **React-based Loan Dashboard** application that utilizes **Mat
 ├── 🚫 .gitignore               # Files to be ignored by Git
 ├── 📦 package.json             # Dependencies and scripts
 ├── 📖 README.md                # Project documentation
-```
+
 
 ---
 
@@ -60,7 +63,7 @@ npm start
 ```
 
 🚀 The app will be available at **http://localhost:3000**
-DEPLOYED: https://resollectanjali.vercel.app/
+# DEPLOYED: https://resollectanjali.vercel.app/
 ---
 
 ## 📊 Usage
