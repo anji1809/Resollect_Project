@@ -60,7 +60,7 @@ npm start
 ```
 
 🚀 The app will be available at **http://localhost:3000**
-
+DEPLOYED: https://resollectanjali.vercel.app/
 ---
 
 ## 📊 Usage
@@ -85,6 +85,5 @@ npm start
 
 ---
 
-## 📜 License
-📝 This project is licensed under the **MIT License**.
+
 
